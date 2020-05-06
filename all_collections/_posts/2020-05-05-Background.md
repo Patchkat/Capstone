@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Hello Jekyll
+title: Background
 date: 2018-10-09
-tag: Jekyll
-author: Alexa Crisis
-categories: ["Jekyll"]
+tag: capstone
+author: Jono Jenkens
 image: "a.png"
 ---
 
