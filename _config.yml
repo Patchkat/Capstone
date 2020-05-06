@@ -2,6 +2,7 @@ title: Distracted Driver Detection
 markdown: kramdown
 url: ""
 baseurl: "/capstone"
+google_analytics: UA-165741799-1
 
 # for atom feed
 author:
