@@ -1,12 +1,12 @@
-title: Dark Reader
+title: Distracted Driver Detection
 markdown: kramdown
 url: ""
-baseurl: "/jekyll-theme-dark-reader"
+baseurl: "/capstone"
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Jono Jenkens
+  email: jono@jenkens.us
 
 plugins:
   - jekyll-paginate
