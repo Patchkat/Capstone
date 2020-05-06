@@ -1,7 +1,3 @@
-# Site settings
-title: Jekyll Basic Blog
-description: > 
-  A very simple Jekyll site for learning how Jekyll sites work.
-
-# Build settings
+title: Capstone Blog
+description: A blog about the work on my capstone project
 markdown: kramdown
