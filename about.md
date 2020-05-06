@@ -6,5 +6,7 @@ profile_pic_alt: "Jono Jenkens"
 short_bio: Hello, I'm Jono. I did this capstone.
 ---
 
+Dummy text right here.
+
 [My Linkedin](http://linkedin.com/in/jonojenkens)
 [My Github](http://github.com/patchkat)
