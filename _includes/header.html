@@ -1,17 +1,5 @@
-<!doctype html>
-<head>
-  <html lang="en">
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} – {{ site.description }}
-    {% else %}
-      {{ page.title }} – {{ site.title }}
-    {% endif %}
-  </title>
-
-  <link rel="stylesheet" href="/style.css" type="text/css">
-  <meta name="viewport" content="width=device-width" />
-</head>
+<header>
+	<a href="{{site.baseurl}}/">
+		<h3>{{site.title}}</h3>
+	</a>
+</header>

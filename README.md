@@ -1,7 +1,28 @@
-# Jekyll Basic Blog
+# Jekyll Theme Dark Reader
 
-This is a very basic Jekyll blog starter kit, built for learning how Jekyll works. It's very heavily adapted from [sethherr/jekyll-starter](https://github.com/sethherr/jekyll-starter).
+>A Minimal Dark theme for jekyll with minimal CSS and blazing fast loading of pages thanks to [Pill](https://github.com/rumkin/pill) 
 
-To begin experimenting with it, use the button below to copy the repository to your GitHub account and deploy it to Netlify:
+[Live Demo](https://sharadcodes.github.io/jekyll-theme-dark-reader/)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/verythorough/jekyll-basic-blog)
+## How to install
+
+1. Download or clone the repo
+   `git clone https://github.com/sharadcodes/jekyll-theme-dark-reader.git`
+2. Enter the folder
+   `cd jekyll-theme-dark-reader`
+3. Run
+   `bundle install`
+4. Start Jekyll server
+   `bundle exec jekyll serve`
+5. Access via
+   * localhost or according to your pc configurations.
+6. Change the `_config.yml` file according to you.
+7. Upload the files on your repository and :sunglasses: enjoy.
+
+
+# Screenshots
+
+## BLOG PAGE
+![Blog page](https://github.com/sharadcodes/jekyll-theme-dark-reader/raw/master/screenshots/1.png)
+## POST EXAMPLE
+![Post page](https://github.com/sharadcodes/jekyll-theme-dark-reader/raw/master/screenshots/2.png)

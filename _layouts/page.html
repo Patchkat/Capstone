@@ -6,18 +6,13 @@
     <div id="page">
       <style>
         .title {
-          padding: 10%;
+          padding: 5%;
           color: #101417;
           font-size: 18px;
           font-weight: bold;
           text-align: center;
           background: #f78e66;
           display: grid;
-        }
-        .meta {
-          font-size: 0.7rem;
-          font-weight: normal;
-          text-transform: uppercase;
         }
       </style>
       <!-- header -->
@@ -27,7 +22,7 @@
       <!-- page content -->
       <main class="content">
         <p class="title">
-          {{page.title}} <span class="meta">Written By {{page.author}}</span>
+          {{page.title}}
         </p>
         {{content}}
       </main>
