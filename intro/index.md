@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introduction
 theme: jekyll-theme-cayman
 ---
