@@ -3,7 +3,7 @@ title: Introduction
 theme: jekyll-theme-cayman
 ---
 
-#{{page.title}}
+# {{page.title}}
 
 In these modern times, it is important for drivers to learn the dangers of the road and train themselves to be attentive. Teenagers and adults alike are more susceptible to being distracted now due to driver assist features that are automating many actions.  Drivers are now also more stressed and tired.
 
