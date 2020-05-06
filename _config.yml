@@ -1,0 +1,7 @@
+# Site settings
+title: Jekyll Basic Blog
+description: > 
+  A very simple Jekyll site for learning how Jekyll sites work.
+
+# Build settings
+markdown: kramdown
