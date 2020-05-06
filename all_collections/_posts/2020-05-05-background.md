@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Background
-date: 2018-10-09
-tag: capstone
+date: 2020-05-05 12:00:00
 author: Jono Jenkens
-image: "a.png"
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`
