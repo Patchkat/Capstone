@@ -1,3 +1,6 @@
-#Introduction
+---
+layout: post
+title: Introduction
+---
 
-Hopefully this will work
+This is where I will introduce what I have done.  I have done quite a bit, all in the last few days mostly.

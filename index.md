@@ -2,13 +2,6 @@
 
 This website covers all the basic topics of my capstone, both written and physical.
 
-### Intro
-
-This is where I will introduce what I have done.  I have done quite a bit, all in the last few days mostly.
-
-```markdown
-Syntax highlighted code block
-
 # Header 1
 ## Header 2
 ### Header 3
