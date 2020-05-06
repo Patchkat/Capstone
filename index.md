@@ -1,4 +1,4 @@
-## Welcome to my capstone website
+# Welcome to my capstone website
 
 This website covers all the basic topics of my capstone, both written and physical.
 
