@@ -3,6 +3,6 @@ layout: post
 title: Introduction
 ---
 
-{page.title}
+{{page.title}}
 
 That might work, we will have to see.
