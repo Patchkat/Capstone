@@ -2,6 +2,8 @@
 
 This website covers all the basic topics of my capstone, both written and physical.
 
+[Introduction](Intro/another-page.md)
+
 # Header 1
 ## Header 2
 ### Header 3
