@@ -1,3 +1,9 @@
+---
+title: Detecting Driver Attentiveness
+description: My capstone project
+author: Jono Jenkens
+theme: jekyll-theme-cayman
+---
 # Welcome to my capstone website
 
 This website covers all the basic topics of my capstone, both written and physical.
