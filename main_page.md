@@ -1,6 +1,6 @@
 ## Welcome to My Capstone
 
-My basic project was creating a neural network that was capable of detecting whether or not a driver is paying attention while driving, and then attempt to get them to start paying attention again.
+My basic project was creating a neural network that was capable of detecting whether or not a driver is paying attention while driving, and then attempt to get them to start paying attention again.  It was somewhat successful.
 
 ### Background
 
