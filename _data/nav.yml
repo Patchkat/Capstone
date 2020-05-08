@@ -5,7 +5,9 @@ list:
     url: about
   - title: Introduction
     url: posts/2020/05/06/introduction
-  - title: Neural Networks
-    url: posts/2020/05/07/neural-network
+  - title: Statistics
+    url: posts/2020/05/07/statistics
+  - title: Neural Network
+    url: posts/2020/05/06/neural-network
   - title: Results
     url: posts/2020/05/06/results
