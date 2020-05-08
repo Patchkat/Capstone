@@ -35,3 +35,6 @@ For all fatal crashes in the NHTSA study, only around six percent of the drivers
 The 2013 NHTSA study found that 14 out of every million licensed drivers involved in fatal distracted driving crashes were teenagers.  When looking at specifically teenagers, it was found that 24 out of every million teenage licensed drivers were involved in fatal distracted driving crashes. Out of all of the 3,154 distracted driving fatalities in 2013, 8 percent were teenagers between 15 and 19 years old, quite a large percentage for such a small group of drivers. Overall, 10 percent of all teenagers killed on the road died in distracted driving crashes, and 10 percent of all drivers responsible for distracted driving deaths were teenagers. 
 
 This data shows a clear issue with how teenagers are taught to drive.  Somewhere along the line, something falls apart and teens don’t really get the memo that distracted driving is really bad, especially texting and driving.  Now, this could be contributed partially to parents who text or talk while driving, which is why I decided to do my capstone project.  If parents change their habits, then their kida will likely do the same, and everyone will be overall safer in the end.
+
+<h2><u>Works Cited</u></h2>
+* 

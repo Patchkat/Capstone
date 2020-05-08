@@ -1,8 +1,0 @@
-I"Ä<h2 id="after-all-of-this-work-and-24-hours-of-training-it-was-finally-time-to-take-the-model-out-into-the-world">After all of this work and 24 hours of training, it was finally time to take the model out into the world.</h2>
-<hr />
-<h1 id="training-results">Training Results</h1>
-<center>
-    <img src="/capstone/assets/photos/training.png?raw=true" alt="Data about the training of the neural network" />
-</center>
-<p>The model claimed to have an accuracy of 99%.  That seems insane for a project thrown together by a random high school student with very little experience surrounding AI, which is why it seems likely that the model overfit. However, the only way to truly test whether or not the model works is to give it brand new data. In order to do that, I needed to get a camera mounted in my car and connected to a computer.  Luckily, near the beginning of my capstone I had gotten the Microsoft Azure Kinect DK2 from campus for this specific purpose.</p>
-:ET
