@@ -4,6 +4,11 @@ title: Distracted Driving Statistics
 date: 2020-05-07 15:30:00
 author: Jono Jenkens
 ---
+<a href="https://www.919sow.afrc.af.mil/News/Art/igphoto/2001555322/" target="_blank">
+    <center>
+        <img src="{{site.baseurl}}/assets/photos/crash.JPG?raw=true" alt="Overturned car in the middle of a street">
+    </center>
+</a> 
 ## Many accidents occur everyday, but how many are the result of distracted driving? 
 ***
 # NHTSA 
