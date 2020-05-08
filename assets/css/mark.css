@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-	word-break: break-all !important;
+	word-break: normal !important;
 	margin: 10px 0;
 	padding-bottom: 0.1em;
 	line-height: 1.2;
