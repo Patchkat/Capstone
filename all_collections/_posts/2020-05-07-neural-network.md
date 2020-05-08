@@ -7,4 +7,4 @@ author: Jono Jenkens
 
 # Background
 
-Neural network be quirky. UwU.
+When initially starting this project, I believed the best option would be something related to facial recognition.  While I 
