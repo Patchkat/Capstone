@@ -7,9 +7,9 @@ p {
 	line-height: 1.7 !important;
 	min-height: 1em !important;
 	box-sizing: border-box !important;
-	word-wrap: break-word !important;
+	word-wrap: normal !important;
 	text-align: justify;
-	margin: 20px 0 !important;
+	margin: 15px 0px 10px !important;
 }
 
 blockquote {
@@ -45,8 +45,8 @@ h4,
 h5,
 h6 {
 	word-break: break-all !important;
-	margin: 20px 0;
-	padding-bottom: 0.3em;
+	margin: 10px 0;
+	padding-bottom: 0.1em;
 	line-height: 1.2;
 	text-align: left;
 	font-weight: bold;
