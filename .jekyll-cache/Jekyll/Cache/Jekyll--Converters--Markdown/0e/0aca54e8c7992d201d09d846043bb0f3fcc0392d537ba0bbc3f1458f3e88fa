@@ -1,0 +1,45 @@
+I"�<p><a href="https://en.m.wikipedia.org/wiki/File:Typical_cnn.png" target="_blank">
+    <center>
+        <img src="/capstone/assets/photos/CNN.png?raw=true" alt="Diagram of a convolutional neural network" />
+    </center>
+</a></p>
+
+<hr />
+<h1 id="the-beginning">The Beginning</h1>
+<p>When I began work on my capstone, I thought that the best way to go about detecting driver attentiveness was to somehow detect their face and determine if they were paying attention from there.  I followed this path initially, spending a bit of time doing research into the <a href="www.facefirst.com/blog/brief-history-of-face-recognition-software/">history of facial recognition</a>, as well as what it can do now. However, I realized rather quickly that facial recognition would definitely not be the way to go.  It required a bunch of unnecessary steps, such as figuring out how to get a camera always positioned in a car in such a way as to be facing the driver with no obstructions. Plus, trying to discern whether a driver is paying attention from just their fact present several problems.  If a face isn’t detected, do you assume the driver isn’t paying attention, or do you just hope that the network can’t detect the face because the driver is looking away?</p>
+
+<p>All of these different issues led me to stop following the path of facial recognition.  Instead, I had to look into other forms of machine learning and algorithms for detecting driver attentiveness.  After some more research, I settled on using the <a href="https://arxiv.org/abs/1512.03385">Resnet50 model</a> trained on a <a href="https://www.kaggle.com/c/State-Farm-Distracted-Driver-Detection/Data">State Farm dataset</a>.  Resnet50 is a Convolution Neural Network (CNN) that has been trained on more than a million different labeled images to be able to detect and label thousands of different objects and creatures.  That makes resnet50 extremely useful to me, as I do not have time to fully train a network from nothing.  Resnet50 provides a 50-layer deep model with pre-trained weights, allowing me to simply train the last few layers to conform to my needs instead of what the model was originally trained to do.</p>
+
+<hr />
+<h1 id="issues">Issues</h1>
+<p>When I first started attempting to train the network, I found that I was running into a lot of issues with the library that I was using, <a href="https://docs.fast.ai">fast.ai</a>.  Now, fast.ai has some great lessons on machine learning, and I was following along with some of them to learn about deep learning and machine learning and all the other fun buzzwords.  However, while everything was working when going through the lessons, training the actual network wasn’t working.  For whatever reason, random lines of code just kept throwing errors.  It was really confusing, as the issue were coming from the underlying PyTorch library, rather than fast.ai itself.</p>
+
+<p>In an attempt to combat the issues that were plaguing me, I decided to simply uninstall python and anaconda, since both could have been conflicting with each other or other things in Windows and causing issues.  I reinstalled just anaconda, as it is a python package manager specifically designed around data science.  However, even after doing this, I was still running into issues.  I decided that the best way to solve this issue was to install Ubuntu, one of the most popular Linux distributions.
+<a href="https://commons.wikimedia.org/wiki/File:Ubuntu_logoib.svg" target="_blank">
+    <center>
+        <img src="/capstone/assets/photos/ubuntu.png?raw=true" alt="Ubuntu logo" />
+    </center>
+</a>
+After successfully setting up my laptop to be able to dual boot into both Windows and Ubuntu, I got to work installing anaconda into Ubuntu, as it was a fresh install of a new OS.  In theory, that should have meant that I wouldn’t run into the issues that I had been running into on Windows.  Plus, Linux distributions are often considered to be better for a lot of different types of programming. Sadly, I was still running into the same issues that I had on Windows.</p>
+
+<p>After much testing, I realized that this issue was likely due to the fact that I may have updated my installation of PyTorch while the fast.ai library was only currently updated to work with an older version of PyTorch.  That also meant that when installing the fast.ai library fresh into Ubuntu, I still had the updated version of PyTorch causing issues.  While it didn’t cause that many issues, it always errored out whenever I attempted to apply any transformations to images when creating a data bunch for the model to train with. I also ran into issues with the library just generally not working.</p>
+
+<hr />
+<h1 id="training">Training</h1>
+<p>After finally solving all of my issues, I got to work on training my neural network to detect when drivers are not paying attention to the road ahead of them.  While I initially was working on my laptop, I realized that the resnet50 model was going to take a lot more RAM and VRAM than my tablet had, especially since there is not GPU in my tablet.  So, I swapped to my desktop also in Ubuntu.</p>
+
+<p>After downloading the state farm dataset, I noticed that it was separated into different folders with class names such as “c0” and “c1”.  This was rather unfortunate, as it meant that the output of the neural network would only really be understandable for the computer, unless someone memorized what each class meant.  I then got to work with creating a data bunch for the network to train with, using the assistance of the internet to help with figuring out how to get all these different images into the data bunch as a training and validation set.</p>
+
+<p>I then set about training the network.  In the end, the network took just over 24 hours to fully train.  This definitely seemed off, but I didn’t feel like questioning what took so long, as long as the network works.  I did realize that I never scaled the images down, which may have led to the model overfitting and also taking forever to train.  Whatever the cause, the model was finally finished and trained. To test whether or not the model actually worked in the real world, I needed to take it out into the real world.</p>
+
+<hr />
+<h1><u>Works Cited</u></h1>
+<ul>
+  <li>Aphex34. “Typical CNN Architecture.” Wikimedia Commons, 16 Dec. 2015, en.m.wikipedia.org/wiki/File:Typical_cnn.png.</li>
+  <li>Bear17. “Ubuntu Logo.” Wikimedia Commons, 30 Oct. 2016, commons.wikimedia.org/wiki/File:Ubuntu_logoib.svg.</li>
+  <li>“Fast.ai.” Fast.ai, https://docs.fast.ai/.</li>
+  <li>He, Kaiming, et al. “Deep Residual Learning for Image Recognition.” 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, doi:10.1109/cvpr.2016.90.</li>
+  <li>“State Farm Distracted Driver Dataset.” https://www.kaggle.com/c/State-Farm-Distracted-Driver-Detection/Data , 2016.</li>
+  <li>West, Jesse D. “A Brief History of Face Recognition.” Face First, 1 Aug. 2017, www.facefirst.com/blog/brief-history-of-face-recognition-software/.</li>
+</ul>
+:ET
