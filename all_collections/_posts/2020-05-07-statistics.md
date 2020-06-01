@@ -25,7 +25,7 @@ They found that there were 30,057 total fatal crashes involving 44,574 drivers i
 [In 2015](www.epermittest.com/drivers-education/risks-distracted-driving#the-impact-of-distracted-driving.), 391,000 people were injured in distracted driving accidents.  In 2016, 3,450 people were killed in accidents that involved at least one distracted driver.  While it is only a small increase over 2013, an upward trend in distracted driving accidents is not a good thing.  It shows that people are starting to rely more and more on technology while driving.  [In 2018](www.nhtsa.gov/risky-driving/distracted-driving.), the NHTSA reported that 36,570 people died in automobile accidents, with another 400,000 being injured in collisions due to distracted driving. 
 
 ***
-# [Teenagers](www.nhtsa.gov/risky-driving/distracted-driving.)
+# [Teenagers](www.nhtsa.gov/risky-driving/distracted-driving)
 <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812132" target="_blank">
     <center>
         <img src="{{site.baseurl}}/assets/photos/2013-ages.png?raw=true" alt="Table with statistics on distracted driving crashes by age">
