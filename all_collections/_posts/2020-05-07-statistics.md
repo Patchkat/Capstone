@@ -22,10 +22,10 @@ In 2013, the National Highway Traffic Safety Administration (NHTSA) conducted a 
 
 They found that there were 30,057 total fatal crashes involving 44,574 drivers in the US.  This resulted in a total 32,719 deaths. Of those fatal crashes, about 10% (2,910) involved distracted drivers, with some including multiple distracted drivers for a total of 2,959 distracted driver deaths.  This also resulted in a total of 3,154 fatalities (10% of total crash fatalities) from distracted driving. In non-fatal accidents or near collisions, it was found that almost 23% of them involved one or more distracted drivers. It was also found that about 14% (411) of all distracted driving fatalities were due to texting on a cell phone. 
 
-[In 2015](www.epermittest.com/drivers-education/risks-distracted-driving#the-impact-of-distracted-driving.), 391,000 people were injured in distracted driving accidents.  In 2016, 3,450 people were killed in accidents that involved at least one distracted driver.  While it is only a small increase over 2013, an upward trend in distracted driving accidents is not a good thing.  It shows that people are starting to rely more and more on technology while driving.  [In 2018](www.nhtsa.gov/risky-driving/distracted-driving.), the NHTSA reported that 36,570 people died in automobile accidents, with another 400,000 being injured in collisions due to distracted driving. 
+[In 2015](https://www.epermittest.com/drivers-education/risks-distracted-driving#the-impact-of-distracted-driving.), 391,000 people were injured in distracted driving accidents.  In 2016, 3,450 people were killed in accidents that involved at least one distracted driver.  While it is only a small increase over 2013, an upward trend in distracted driving accidents is not a good thing.  It shows that people are starting to rely more and more on technology while driving.  [In 2018](www.nhtsa.gov/risky-driving/distracted-driving.), the NHTSA reported that 36,570 people died in automobile accidents, with another 400,000 being injured in collisions due to distracted driving. 
 
 ***
-# [Teenagers](www.nhtsa.gov/risky-driving/distracted-driving)
+# [Teenagers](https://www.nhtsa.gov/risky-driving/distracted-driving)
 <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812132" target="_blank">
     <center>
         <img src="{{site.baseurl}}/assets/photos/2013-ages.png?raw=true" alt="Table with statistics on distracted driving crashes by age">
